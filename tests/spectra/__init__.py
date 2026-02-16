@@ -1,0 +1,1 @@
+"""Spectra module regression tests."""
