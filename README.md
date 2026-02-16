@@ -11,24 +11,7 @@ This project demonstrates professional testing practices including:
 - **Comprehensive documentation** and CI/CD setup
 - **Report generation** for test results and metrics
 
-## Project Structure
 
-```
-RegressionTesting/
-├── framework/              # Core testing framework
-│   ├── test_base.py       # Base test class
-│   ├── fixtures.py        # Test data and fixtures
-│   └── report_generator.py # Report generation utilities
-├── tests/                 # Test suites
-│   ├── tile/             # TILE module tests
-│   ├── emquest/          # EMQuest GPS tests
-│   ├── spectra/          # Spectra Python integration tests
-│   └── aurora/           # Aurora system tests
-├── docs/                 # Documentation
-├── .github/workflows/    # CI/CD configuration
-├── requirements.txt      # Python dependencies
-├── pytest.ini           # Pytest configuration
-└── README.md            # This file
 ```
 
 ## Features
@@ -204,55 +187,5 @@ Test reports are automatically generated:
 - **JSON Report**: `reports/test_report.json`
 - **Coverage Report**: `htmlcov/index.html`
 
-## Internship Program Alignment
 
-This project aligns with the Software Engineer Intern program requirements:
 
-✅ **Regression Testing** - 25+ comprehensive regression tests
-✅ **TILE Testing** - Core module tests with Python examples
-✅ **Python Integration** - Spectra Python integration test suite
-✅ **Android GPS** - EMQuest GPS module integration testing
-✅ **Development Tasks** - Complete GitHub project structure
-✅ **System Integration** - Aurora system integration testing
-
-## Best Practices Demonstrated
-
-1. **Code Organization**: Modular structure with clear separation of concerns
-2. **Testing Framework**: Reusable base classes and fixtures
-3. **Documentation**: Comprehensive README and inline comments
-4. **CI/CD**: Automated testing with GitHub Actions
-5. **Code Coverage**: Tracking test coverage metrics
-6. **Error Handling**: Proper exception handling and recovery
-7. **Logging**: Structured logging for debugging
-8. **Git Workflow**: Feature branches and pull requests
-
-## Future Enhancements
-
-- Integration with test management tools (Jira, TestRail)
-- Performance benchmarking tests
-- Load testing for Aurora system
-- Mobile-specific Android tests
-- Database integration tests
-
-## Contributing
-
-1. Create a feature branch: `git checkout -b feature/new-tests`
-2. Write tests following the existing pattern
-3. Run full test suite: `pytest tests/ -v`
-4. Commit changes: `git commit -m "Add: new regression tests"`
-5. Push to repository: `git push origin feature/new-tests`
-6. Create pull request for review
-
-## License
-
-This project is provided as-is for educational and professional purposes.
-
-## Contact
-
-For questions or suggestions regarding the regression testing framework, please reach out to the development team.
-
----
-
-**Last Updated**: February 2026
-**Python Version**: 3.9+
-**Framework**: pytest
