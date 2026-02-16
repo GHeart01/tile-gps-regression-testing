@@ -12,7 +12,7 @@ This project demonstrates professional testing practices including:
 - **Report generation** for test results and metrics
 
 
-```
+
 
 ## Features
 
@@ -110,11 +110,6 @@ class TestMyFeature(TestBase):
         self.assert_equals("expected", "actual")
 ```
 
-### Running Tests Locally
-
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run tests: `pytest tests/ -v`
-3. View coverage: Open `htmlcov/index.html` in browser
 
 ## Report Generation
 
